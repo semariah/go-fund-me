@@ -1,4 +1,4 @@
-.displayDiv {
+#displayDiv {
   border: 1px solid lightpink;
   padding: 15px;
   margin: 15px;
@@ -6,6 +6,6 @@
   float: left;
 }
 
-.displayDiv:hover {
+#displayDiv:hover {
   cursor: pointer;
 }
