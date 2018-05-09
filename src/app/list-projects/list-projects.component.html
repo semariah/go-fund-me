@@ -1,0 +1,5 @@
+<h2>List of projects</h2>
+<div *ngFor="let project of projects | async" (click)="goToDetailPage(project)" class="displayDiv">
+  <p>{{project.title}}</p>
+  <p>{{project.body}}</p>
+</div>

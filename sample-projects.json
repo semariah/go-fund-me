@@ -1,0 +1,19 @@
+{ "projects": [{
+    "title": "Example Title1",
+    "body": "this is just a fake article to be a place holder",
+    "id": "1"
+  }, {
+    "title": "Example Title2",
+    "body": "this is just a fake article to be a place holder",
+    "id": "2"
+  }, {
+    "title": "Example Title3",
+    "body": "this is just a fake article to be a place holder",
+    "id": "3"
+  }, {
+    "title": "Example Title4",
+    "body": "this is just a fake article to be a place holder",
+    "id": "4"
+
+  }]
+}
