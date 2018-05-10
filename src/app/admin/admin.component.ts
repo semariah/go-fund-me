@@ -16,8 +16,8 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(title: string, body: string) {
-    var newProject: Project = new Project(title, body);
+  submitForm(title: string, body: string, url: string) {
+    var newProject: Project = new Project(title, body, url);
     this.projectService.addProject(newProject);
   }
 

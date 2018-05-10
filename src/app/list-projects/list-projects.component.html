@@ -3,6 +3,7 @@
  <div class="panel-body">
    <p>Raised: ${{project.raised}}</p>
    <h3 (click)="goToDetailPage(project)">{{project.title}}</h3>
+   <img src="{{project.url}}">
    <div *ngIf="currentRoute === '/admin'">
        {{project.body}}
        <hr>

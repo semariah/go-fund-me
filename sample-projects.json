@@ -2,21 +2,26 @@
     "title": "Example Title1",
     "body": "this is just a fake article to be a place holder",
     "id": "1",
-    "raised": "0"
+    "raised": "0",
+    "url":"http://media.nj.com/centraljersey_impact/photo/gofundme-radazzjpg-e2ca4313ebcc73e7.jpg"
   }, {
     "title": "Example Title2",
     "body": "this is just a fake article to be a place holder",
     "id": "2",
-    "raised": "0"
+    "raised": "0",
+    "url": "https://i.kinja-img.com/gawker-media/image/upload/s--W3NDaok5--/c_scale,f_auto,fl_progressive,q_80,w_800/og6tcc5xxkijpwy17fsy.jpg"
   }, {
     "title": "Example Title3",
     "body": "this is just a fake article to be a place holder",
     "id": "3",
-    "raised": "0"
+    "raised": "0",
+    "url": "http://www.standard.net/image/2014/12/05/800x_a16-9_b0_q81_p1/Jensen-Go-Fund-Me.png"
+
   }, {
     "title": "Example Title4",
     "body": "this is just a fake article to be a place holder",
     "id": "4",
-    "raised": "0"
+    "raised": "0",
+    "url": "https://images.tmz.com/2017/12/11/1211-keaton-jones-go-fund-me-3.jpg"
   }]
 }
