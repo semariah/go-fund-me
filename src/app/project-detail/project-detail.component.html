@@ -1,4 +1,6 @@
 <div>
-  <h3>{{(projectToDisplay | async)?.title}}</h3>
-  <h4>{{(projectToDisplay | async)?.body}}</h4>
+  <h5>Raised: ${{(projectToDisplay | async)?.raised}}</h5>
+  <h4>{{(projectToDisplay | async)?.title}}</h4>
+  <p>{{(projectToDisplay | async)?.body}}</p>
+  <div *ngFor="let project of projects | async"  (click)="donateMoney(project)">Donate</div>
 </div>

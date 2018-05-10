@@ -13,6 +13,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AdminComponent } from './admin/admin.component';
 import { EditProjectComponent } from './edit-project/edit-project.component';
+import { DonateComponent } from './donate/donate.component';
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
   authDomain: masterFirebaseConfig.authDomain,
@@ -28,7 +29,8 @@ export const firebaseConfig = {
     ListProjectsComponent,
     ProjectDetailComponent,
     AdminComponent,
-    EditProjectComponent
+    EditProjectComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,

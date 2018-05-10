@@ -4,6 +4,7 @@ import { Location } from '@angular/common';
 import { Project } from '../project.model';
 import { ProjectService } from '../project.service';
 import { FirebaseObjectObservable } from 'angularfire2/database';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-project-detail',
@@ -15,7 +16,11 @@ export class ProjectDetailComponent implements OnInit {
   projectId: string;
   projectToDisplay;
 
-  constructor(private route: ActivatedRoute, private location: Location, private projectService: ProjectService) { }
+  constructor(private route: ActivatedRoute, private location: Location, private projectService: ProjectService, private router: Router) { }
+
+  donateMoney(clickedProject: Project) {
+    //  this.router.navigate(['projects', clickedProject.$key]);
+   };
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
